@@ -32,7 +32,7 @@
         shine: 8,
         price: 110.50,
         rarity: 7,
-        color: '#CCC',
+        color: '#0000FFC',
         faces: 14,
         description: "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
         canPurchase: true,
@@ -57,7 +57,7 @@
         shine: 70,
         price: 1100,
         rarity: 2,
-        color: '#000',
+        color: '#FFA500',
         faces: 6,
         description: "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
         canPurchase: true,
@@ -79,3 +79,6 @@
     }]
 
 })();
+function QuarterController($scope) {
+    $scope.Star = 'S3';
+}
